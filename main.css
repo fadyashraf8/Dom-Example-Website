@@ -1,0 +1,39 @@
+.item{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.layer{
+    position: absolute;
+    top: 105%;
+    left: 25px;
+    right: 25px;
+bottom: 15px;
+transition: all 1s;
+}
+
+.item:hover .layer{
+top: 68%;
+}
+
+
+#BoxContainer{
+position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.259);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#InnerBox{
+    width: 50%;
+    height: 500px;
+    background-image: url(images/portfolio-1.jpg);
+    background-size: cover;
+}
+i{
+    cursor: pointer;
+}
